@@ -3,13 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        h1{
+            text-align: center;
+        }
+        .header{
+            padding: 20px;
+
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            
+        }
+        .container-header{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 500px;
+            padding: 10px;
+        }
+        img{
+            width: 300px;
+            height: auto;
+            margin-top: 20px;
+        }
+        .ingredients{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+        }
+        ul{
+            list-style: none;
+        }
+        h2{
+            text-align: start;
+        }
+        .directions{
+            display:flex ;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 500px;
+        }
+    </style>
     <title>Midwest Salisbury Steak  </title>
 </head>
 <body>
-    <h1>Midwest Salisbury Steak</h1>
-    <p>This recipe for Salisbury steak uses good quality ground sirloin and tastes wonderful. You won't have to drain any grease from the patties once they've browned. Serve over mashed potatoes, egg noodles, or rice. Simply delightful!</p>
-    <img src="https://www.allrecipes.com/thmb/_DwGmJ5M-RBP_ykLFmPRt4HcWT0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/2067307-3814bac5191a42caad0e604d01f78ffa.jpg" alt="Midwest Salisbury Steak">
+        <div class="header">
+            <h1>Midwest Salisbury Steak</h1>
+        </div>
+        <div class="container">
+        <div class="container-header">
+            <p>This recipe for Salisbury steak uses good quality ground sirloin and tastes wonderful. You won't have to drain any grease from the patties once they've browned. Serve over mashed potatoes, egg noodles, or rice. Simply delightful!</p>
+            <img src="https://www.allrecipes.com/thmb/_DwGmJ5M-RBP_ykLFmPRt4HcWT0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/2067307-3814bac5191a42caad0e604d01f78ffa.jpg" alt="Midwest Salisbury Steak">
+        </div>
+        </div>
 
+<div class="container">
+    <div class="ingredients">
     <h1>Ingredients</h1>
 
     <h2>Patties:</h2>
@@ -38,8 +98,10 @@
             1 cup water</li>
         <li>    salt and ground black pepper to taste
         </li>
-    
-
+    </div>
+</div>   
+    <div class="container">
+        <div class="directions">
         <h1>Directions</h1>
 
         <h3>Step 1</h3>
@@ -59,7 +121,8 @@
 
         <h3>Step 6</h3>
         <p>Place browned patties into gravy; simmer until very tender, about 30 minutes. An instant-read thermometer inserted into the center should read 160 degrees F (70 degrees C).</p>
-
+    </div>
+    </div>
        
 </body>
 </html>

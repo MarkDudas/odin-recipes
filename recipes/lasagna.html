@@ -3,13 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .header{
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            
+        }
+        .pic-container{
+            width:500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        img{
+            width: 300px;
+            margin-top: 10px;
+        }
+        .ingredients{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+        }
+        ul{
+            list-style: none;
+        }
+        .steps-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 600px;
+            margin: 10px;
+            padding: 20px;
+        }
+        h3{
+            margin:20px
+        }
+        p{
+            margin-bottom: 20px;
+        }
+    </style>
     <title>Lasagna</title>
 </head>
 <body>
-    <h1>World best lasagna</h1>
-    <p>This lasagna recipe takes a little work, but it is so satisfying and filling that it's worth it!</p>
-    <img src="https://www.allrecipes.com/thmb/MkKfYU4oim55CLp39DDuNMuyThA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/23600-worlds-best-lasagna-armag-4x3-1-b24f9ad518d74090bf197828492c64a6.jpg" alt="lasagna">
-
+    <h1 class="header">World best lasagna</h1>
+<div class="container">
+    <div class="pic-container">
+        <p>This lasagna recipe takes a little work, but it is so satisfying and filling that it's worth it!</p>
+        <img src="https://www.allrecipes.com/thmb/MkKfYU4oim55CLp39DDuNMuyThA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/23600-worlds-best-lasagna-armag-4x3-1-b24f9ad518d74090bf197828492c64a6.jpg" alt="lasagna">
+    </div>
+</div>
+<div class="container">
+<div class="ingredients">
     <h1>Ingredients</h1>
     <ul>
         <li>1 pound sweet Italian sausage</li>
@@ -28,10 +87,13 @@
         <li> ¼ teaspoon ground black pepper</li>
         <li> 12 lasagna noodles</li>
         <li>16 ounces ricotta cheese</li>
-        <li>1 egg/li>
+        <li>1 egg</li>
         <li>¾ pound mozzarella cheese, sliced</li>
         <li>¾ cup grated Parmesan cheese</li>
-
+    </div>
+</div>
+<div class="container">
+    <div class="steps-container">
         <h2>Steps</h2>
     <h3>Step 1</h3>
     <p>Gather all your ingredients.</p>
@@ -72,7 +134,8 @@
     <h3>Step 10</h3>
     <p>Repeat layers, and top with remaining mozzarella and Parmesan cheese. Cover with foil: to prevent sticking, either spray foil with cooking spray or make sure the foil does not touch the cheese.</p>
     <img src="https://www.allrecipes.com/thmb/lJKo8R_F8xfqyf_r5pWRMrHCu94=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/23600-worlds-best-lasagna-DDMFS-4x3-1196-24c5401652934ffb96d3d94bc9fbe2d7.jpg"/>
-
+</div>
+</div>
     </p>
     </ul>
 </body>
